@@ -26,13 +26,17 @@ const CardDisplay = ({ item }) => {
             <Avatar name={item.language} alt={item.language} />
             <Box>
               <Link isExternal={true} href={item.html_url}>
-                <Heading size="sm">{item.name}</Heading>
+                <span>Title</span>
+                <Heading size="sm" className="titleContainer">
+                  {item.name}
+                </Heading>
               </Link>
             </Box>
           </Flex>
         </Flex>
       </CardHeader>
       <CardBody>
+        <span>Description</span>
         <Text>{item.description}</Text>
       </CardBody>
       <Divider />
