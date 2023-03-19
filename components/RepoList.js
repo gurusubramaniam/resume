@@ -27,7 +27,9 @@ const CardDisplay = ({ item }) => {
             <Box>
               <Link isExternal={true} href={item.html_url}>
                 <span>Title</span>
-                <Heading size="sm">{item.name}</Heading>
+                <Heading size="sm" className="titleContainer">
+                  {item.name}
+                </Heading>
               </Link>
             </Box>
           </Flex>
