@@ -1,8 +1,9 @@
-import Link from "next/link";
+import { Link } from "@chakra-ui/react";
+import NextLink from "next/link";
 import nav from "../styles/Nav.module.css";
 import Avatar from "./Avatar";
 import { useColorMode } from "@chakra-ui/color-mode";
-import { MoonIcon, SunIcon } from "@chakra-ui/icons";
+import { MoonIcon, SunIcon, PhoneIcon } from "@chakra-ui/icons";
 import { IconButton } from "@chakra-ui/button";
 
 const Nav = () => {
@@ -14,11 +15,9 @@ const Nav = () => {
       <div className={nav.navcontainer}>
         <ul className={nav.navitems}>
           <li className={nav.navitems}>
-            <Link href="/">Home</Link>
-          </li>
-          &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;
-          <li className={nav.navitems}>
-            <Link href="/about">About</Link>
+            <Link as={NextLink} href="/">
+              About
+            </Link>
           </li>
           &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;
           <li className={nav.navitems}>
@@ -26,7 +25,17 @@ const Nav = () => {
           </li>
         </ul>
       </div>
-      <IconButton mt={4} aria-label="Toggle Mode" onClick={toggleColorMode}>
+      <IconButton mt={4} aria-label="call me" m={1}>
+        <Link href="call:+14088135156">
+          <PhoneIcon></PhoneIcon>
+        </Link>
+      </IconButton>
+      <IconButton
+        mt={4}
+        aria-label="Toggle Mode"
+        onClick={toggleColorMode}
+        m={1}
+      >
         {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
       </IconButton>
     </header>
