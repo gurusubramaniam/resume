@@ -4,7 +4,7 @@ function Avatar({ avatar = false, colorMode = "light" }) {
   const avatarUrl = "https://avatars.githubusercontent.com/u/2196383?v=4";
   const logoUrl = `G-${colorMode}.png`;
   return (
-    <div className={styles.avatarcontainer}>
+    <div className="avatarcontainer">
       <img
         src={avatar ? avatarUrl : logoUrl}
         alt="guru's profile image"
