@@ -2,11 +2,12 @@ import RepoList from "../components/RepoList";
 
 export default function repos({ res }) {
   return (
-    <div>
+    <main>
       <RepoList repos={res} />
-    </div>
+    </main>
   );
 }
+
 export const getStaticProps = async () => {
   const response = await fetch(
     "https://api.github.com/users/gurusubramaniam/repos"

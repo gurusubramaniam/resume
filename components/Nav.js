@@ -1,26 +1,27 @@
 import Link from "next/link";
 import nav from "../styles/Nav.module.css";
-import styles from "../styles/Avatar.module.css";
 import Avatar from "./Avatar";
 
 const Nav = () => {
   return (
-    <div>
+    <header className={nav.nav}>
       <Avatar />
-      <ul className={nav.nav}>
-        <li className={nav.nav}>
-          <Link href="/">Home</Link>
-        </li>
-        &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;
-        <li className={nav.nav}>
-          <Link href="/about">About</Link>
-        </li>
-        &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;
-        <li className={nav.nav}>
-          <Link href="/repos">Repos</Link>
-        </li>
-      </ul>
-    </div>
+      <div className={nav.navcontainer}>
+        <ul className={nav.navitems}>
+          <li className={nav.navitems}>
+            <Link href="/">Home</Link>
+          </li>
+          &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;
+          <li className={nav.navitems}>
+            <Link href="/about">About</Link>
+          </li>
+          &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;
+          <li className={nav.navitems}>
+            <Link href="/repos">Repos</Link>
+          </li>
+        </ul>
+      </div>
+    </header>
   );
 };
 
