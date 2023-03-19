@@ -63,7 +63,7 @@ const RepoList = ({ repos }) => {
           {repos
             .filter((repo) => !repo.fork)
             .map((repo, index) => (
-              <CardDisplay item={repo}></CardDisplay>
+              <CardDisplay item={repo} key={`card{item.name}`}></CardDisplay>
               // <li key={`repo${index}`}>
               //   <a href={repo.html_url} target="_blank" key={`repo ${index}`}>
               //     {repo.name}
