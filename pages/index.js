@@ -17,8 +17,8 @@ export default function Home() {
         <Container maxW="container.lg">
           <Box p="5">
             <Heading>
-              I&apos;m Guru&rsquo; i live in SFO bay area&rsquo; where i build
-              the web future
+              I&apos;m Guru&rsquo; i live in SFO bay area where i build the web
+              future
             </Heading>
           </Box>
           <Box p="5">

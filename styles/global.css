@@ -1,8 +1,15 @@
 .maincontainer {
     display: flex;
     flex-direction: column;
-    min-height: 100vh
+    min-height: 100vh;
 }
 main {
-    flex: 1
+    flex: 1;
+}
+.titleContainer {
+    text-overflow: ellipsis;
+    width:12rem;
+    white-space: pre;
+    overflow: hidden;
+    text-decoration: dotted;
 }
