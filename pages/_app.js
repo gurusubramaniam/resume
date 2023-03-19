@@ -1,7 +1,7 @@
 import Nav from "../components/Nav";
 import Socialmedia from "@/components/Socialmedia";
 import { ChakraProvider } from "@chakra-ui/react";
-import { theme } from "./theme";
+import theme from "../lib/theme";
 
 export default function App({ Component, pageProps }) {
   return (
