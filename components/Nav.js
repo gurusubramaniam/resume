@@ -26,7 +26,7 @@ const Nav = () => {
         </ul>
       </div>
       <IconButton mt={4} aria-label="call me" m={1}>
-        <Link href="call:+14088135156">
+        <Link href="tel:+14088135156">
           <PhoneIcon></PhoneIcon>
         </Link>
       </IconButton>
