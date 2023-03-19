@@ -5,7 +5,7 @@ function Socialmedia() {
     {
       desc: "github",
       imgsrc: "./social/github-dark.png",
-      link: "https://github.paypal.com/gurusubramaniam",
+      link: "https://github.com/gurusubramaniam",
     },
     {
       desc: "Linkedin",
@@ -15,7 +15,7 @@ function Socialmedia() {
     {
       desc: "email",
       imgsrc: "./social/mail.png",
-      link: "mailto:gurutii@gmail.com",
+      link: "mailto:gurutii@gmail.com?subject=Attn: Reaching out to you!&body=Hi Guru,",
     },
     {
       desc: "Whatsapp",
