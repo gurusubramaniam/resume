@@ -1,18 +1,10 @@
-import Head from "next/head";
+import Meta from "../components/Meta";
 import { Container, Heading, Text, Box, Stack } from "@chakra-ui/react";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Guru&apos;s portfolio</title>
-        <meta name="description" content="Personal portfolio website" />
-        <meta
-          name="viewport"
-          content="width=device-width&rsquo; initial-scale=1"
-        />
-        <link rel="icon" href="./favicon.ico" />
-      </Head>
+      <Meta />
       <main>
         <Container maxW="container.lg">
           <Box p="5">
