@@ -17,7 +17,7 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          content="//https://www.gurutii.me/profilelight.png"
+          content="https://www.gurutii.me/profilelight.png"
         />
         <meta property="og:type" content="portfolio" />
         <meta property="og:locale" content="en_US" />
