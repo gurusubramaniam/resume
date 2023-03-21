@@ -1,7 +1,13 @@
 import Meta from "../components/Meta";
-import { Container, Heading, Text, Box, Stack } from "@chakra-ui/react";
+import { Container, Heading, Text, Box, Stack, Button } from "@chakra-ui/react";
 
 export default function Home() {
+  const download = () => {
+    const link = document.createElement("a");
+    link.href = "/Gurusubramaniam.pdf";
+    link.download = "Gurusubramaniam_resume.pdf";
+    link.click();
+  };
   return (
     <>
       <Meta />
@@ -25,6 +31,18 @@ export default function Home() {
                 positively to the tech world, I eagerly anticipate partnering on
                 remarkable digital experiences.
               </Text>
+              <Box textAlign="center">
+                <Button
+                  variant="outline"
+                  onClick={download}
+                  colorScheme="white"
+                  size="md"
+                  w={100}
+                  m={10}
+                >
+                  Download
+                </Button>
+              </Box>
             </Stack>
           </Box>
         </Container>
