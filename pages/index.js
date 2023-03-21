@@ -35,7 +35,7 @@ export default function Home() {
                 <Button
                   variant="outline"
                   onClick={download}
-                  colorScheme="white"
+                  colorScheme="blue"
                   size="md"
                   w={100}
                   m={10}

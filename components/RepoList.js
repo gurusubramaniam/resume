@@ -8,14 +8,12 @@ import {
   Heading,
   Divider,
   Flex,
-  Button,
   Avatar,
   Box,
   SimpleGrid,
   Container,
 } from "@chakra-ui/react";
-
-import { BiLike, BiChat, BiShare } from "@chakra-ui/icons";
+import TechIcons from "./TechIcons";
 
 const CardDisplay = ({ item }) => {
   return (
@@ -23,7 +21,7 @@ const CardDisplay = ({ item }) => {
       <CardHeader>
         <Flex mt="6" spacing="3">
           <Flex flex="1" gap="4" alignItems="center" flexWrap="wrap">
-            <Avatar name={item.language} alt={item.language} />
+            <TechIcons props={{ item, boxSize: 10 }} />
             <Box>
               <Link isExternal={true} href={item.html_url}>
                 <span>Title</span>
@@ -67,12 +65,10 @@ const RepoList = ({ repos }) => {
           {repos
             .filter((repo) => !repo.fork)
             .map((repo, index) => (
-              <CardDisplay item={repo} key={`card{item.name}`}></CardDisplay>
-              // <li key={`repo${index}`}>
-              //   <a href={repo.html_url} target="_blank" key={`repo ${index}`}>
-              //     {repo.name}
-              //   </a>
-              // </li>
+              <CardDisplay
+                item={repo}
+                key={`card${repo.name}${index}`}
+              ></CardDisplay>
             ))}
         </SimpleGrid>
       </Box>
