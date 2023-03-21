@@ -8,7 +8,6 @@ import {
   Heading,
   Divider,
   Flex,
-  Avatar,
   Box,
   SimpleGrid,
   Container,
@@ -21,7 +20,7 @@ const CardDisplay = ({ item }) => {
       <CardHeader>
         <Flex mt="6" spacing="3">
           <Flex flex="1" gap="4" alignItems="center" flexWrap="wrap">
-            <TechIcons props={{ item, boxSize: 10 }} />
+            <TechIcons item={item} boxSize="10" />
             <Box>
               <Link isExternal={true} href={item.html_url}>
                 <span>Title</span>

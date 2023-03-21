@@ -1,5 +1,5 @@
 import { Icon } from "@chakra-ui/react";
-const TechIcons = ({ props }) => {
+const TechIcons = (props) => {
   const tech = props.item.language.toLowerCase();
   switch (tech) {
     case "javascript":

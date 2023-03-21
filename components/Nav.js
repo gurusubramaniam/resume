@@ -13,21 +13,21 @@ import {
   DrawerCloseButton,
   DrawerBody,
   Spacer,
+  Heading,
 } from "@chakra-ui/react";
 import nav from "../styles/Nav.module.css";
 import { useColorMode } from "@chakra-ui/color-mode";
 import { MoonIcon, SunIcon, PhoneIcon, HamburgerIcon } from "@chakra-ui/icons";
 import { IconButton } from "@chakra-ui/button";
 import { useRouter } from "next/router";
-import { useEffect } from "react";
 
-const Nav = () => {
+const Nav = (props) => {
   const { colorMode, toggleColorMode } = useColorMode();
   const router = useRouter();
   const isMobile = useBreakpointValue({ base: true, md: false });
   const { isOpen, onOpen, onClose } = useDisclosure();
 
-  const navigateTo = (path) => {
+  const navigateTo = () => {
     router.push(path);
     onClose();
   };
@@ -45,12 +45,24 @@ const Nav = () => {
   );
   return (
     <header>
-      <Flex alignItems="center" mt="2px" mr="50px" mb="10px" ml="2px">
+      <Flex
+        alignItems="center"
+        mt="2px"
+        mr={isMobile ? "10px" : "50px"}
+        mb="10px"
+        ml={isMobile ? "10px" : "50px"}
+      >
         <Box>
-          <Profilelight boxSize={75}></Profilelight>
+          <Profilelight
+            boxSize={75}
+            border="1px"
+            borderColor={colorMode === "dark" ? "white" : "black"}
+            borderRadius="100"
+          ></Profilelight>
         </Box>
         {isMobile ? (
           <>
+            <Heading pl="15%"></Heading>
             <IconButton
               ml="auto"
               aria-label="Open menu"
