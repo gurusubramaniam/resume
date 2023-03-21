@@ -27,7 +27,7 @@ const Nav = (props) => {
   const isMobile = useBreakpointValue({ base: true, md: false });
   const { isOpen, onOpen, onClose } = useDisclosure();
 
-  const navigateTo = () => {
+  const navigateTo = (path) => {
     router.push(path);
     onClose();
   };
