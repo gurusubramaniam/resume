@@ -1,16 +1,15 @@
 import Meta from "../components/Meta";
 import { Container, Heading, Text, Box, Stack, Button } from "@chakra-ui/react";
-
-export default function Home() {
+export default function Home({ setHeading, heading }) {
   const download = () => {
     const link = document.createElement("a");
     link.href = "/Gurusubramaniam.pdf";
     link.download = "Gurusubramaniam_resume.pdf";
     link.click();
   };
+
   return (
     <>
-      <Meta />
       <main>
         <Container maxW="container.md">
           <Box p="5" lineHeight={0.5}>
