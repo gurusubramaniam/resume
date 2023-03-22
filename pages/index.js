@@ -14,18 +14,18 @@ export default function Home({ setHeading, heading }) {
         <Container maxW="container.md">
           <Box p="5" lineHeight={0.5}>
             <Heading>
-              I&apos;m Guru I am a full-stack JavaScript engineer and manager
-              based in the SFO area
+              I&apos;m Guru, I am a full-stack JavaScript Engineer and Manager
+              based in the Bay Area
             </Heading>
           </Box>
           <Box p="5">
             <Stack spacing={3}>
               <Text fontSize="xl">
-                As a specialist in developing swift, user-friendly websites with
+                As a specialist in developing user-friendly websites with
                 cutting-edge frameworks, I lead empathetically, encouraging
                 teamwork, guidance, and transparent communication in a nurturing
-                work setting. Enthusiastic about DIY IoT projects, I delight in
-                exploring Raspberry Pi and NodeMCU modules, assembling LEGO
+                work environment. Enthusiastic about DIY IoT projects, I delight
+                in exploring Raspberry Pi and NodeMCU modules, assembling LEGO
                 sets, gardening, and home renovation. Keen to contribute
                 positively to the tech world, I eagerly anticipate partnering on
                 remarkable digital experiences.
