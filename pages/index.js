@@ -38,7 +38,7 @@ export default function Home({ setHeading, heading }) {
                   w={100}
                   m={10}
                 >
-                  Download Resume
+                  Download
                 </Button>
               </Box>
             </Stack>
