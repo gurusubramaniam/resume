@@ -14,8 +14,7 @@ export default function Home({ setHeading, heading }) {
         <Container maxW="container.md">
           <Box p="5" lineHeight={0.5}>
             <Heading>
-              I&apos;m Guru, I am a full-stack JavaScript Engineer and Manager
-              based in the Bay Area
+              I&apos;m Guru, I am a Software Development Engineering Manager with a passion for new technologies and Cloud architecture.
             </Heading>
           </Box>
           <Box p="5">
@@ -39,7 +38,7 @@ export default function Home({ setHeading, heading }) {
                   w={100}
                   m={10}
                 >
-                  Download
+                  Download Resume
                 </Button>
               </Box>
             </Stack>
