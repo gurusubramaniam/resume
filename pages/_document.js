@@ -7,7 +7,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Gurusubramaniam&apos; portfolio</title>
+        <title>Gurusubramaniam portfolio</title>
         <meta name="description" content="Gurusubramaniam portfolio website" />
         <meta property="og:title" content="Gurusubramaniam portfolio website" />
         <meta property="og:url" content="https://www.gurutii.me/" />
