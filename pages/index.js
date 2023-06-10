@@ -16,7 +16,7 @@ export default function Home({ setHeading, heading }) {
         <Container maxW="container.md">
           <Box p="5" lineHeight={0.5}>
             <Heading>
-              I&apos;m Guru, I am a Software Development Engineering Manager with a passion for new technologies and Cloud architecture.
+              I&apos;m Guru, I am a Software Development Engineering Leader with a passion for new technologies and Cloud architecture.
             </Heading>
           </Box>
           <Box p="5">
