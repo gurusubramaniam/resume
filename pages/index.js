@@ -16,20 +16,23 @@ export default function Home({ setHeading, heading }) {
         <Container maxW="container.md">
           <Box p="5" lineHeight={0.5}>
             <Heading>
-              I&apos;m Guru, I am a Software Development Engineering Leader with a passion for new technologies and Cloud architecture.
+              Hi, I&apos;m Guru! I&apos;m a passionate Software Development
+              Engineering Leader with a love for new technologies and Cloud
+              architecture.
             </Heading>
           </Box>
           <Box p="5">
             <Stack spacing={3}>
               <Text fontSize="xl">
-                As a specialist in developing user-friendly websites with
-                cutting-edge frameworks, I lead empathetically, encouraging
-                teamwork, guidance, and transparent communication in a nurturing
-                work environment. Enthusiastic about DIY IoT projects, I delight
-                in exploring Raspberry Pi and NodeMCU modules, assembling LEGO
-                sets, gardening, and home renovation. Keen to contribute
-                positively to the tech world, I eagerly anticipate partnering on
-                remarkable digital experiences.
+                I specialize in creating user-friendly websites using
+                cutting-edge frameworks. I believe in leading with empathy,
+                fostering teamwork, and promoting transparent communication in a
+                nurturing work environment. When I&apos;m not coding, you can
+                find me exploring DIY IoT projects, tinkering with Raspberry Pi
+                and NodeMCU modules, building LEGO sets, gardening, or
+                renovating my home. I&apos;m excited to collaborate on creating
+                remarkable digital experiences that make a positive impact in
+                the tech world.
               </Text>
               <Box textAlign="center">
                 <Button
