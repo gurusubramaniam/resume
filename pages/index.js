@@ -15,24 +15,28 @@ export default function Home({ setHeading, heading }) {
       <main>
         <Container maxW="container.md">
           <Box p="5" lineHeight={0.5}>
-            <Heading>
-              Hi, I&apos;m Guru! I&apos;m a passionate Software Development
-              Engineering Leader with a love for new technologies and Cloud
-              architecture.
-            </Heading>
+            <Heading>Welcome to my site! I'm Guru Sundararaman</Heading>
           </Box>
           <Box p="5">
             <Stack spacing={3}>
               <Text fontSize="xl">
-                I specialize in creating user-friendly websites using
-                cutting-edge frameworks. I believe in leading with empathy,
-                fostering teamwork, and promoting transparent communication in a
-                nurturing work environment. When I&apos;m not coding, you can
-                find me exploring DIY IoT projects, tinkering with Raspberry Pi
-                and NodeMCU modules, building LEGO sets, gardening, or
-                renovating my home. I&apos;m excited to collaborate on creating
-                remarkable digital experiences that make a positive impact in
-                the tech world.
+                I've spent over 15 years in the world of software engineering
+                and development. My journey has taken me from hands-on coding to
+                leading global teams in creating innovative, large-scale digital
+                solutions. I'm passionate about cloud architecture and
+                user-focused design, and I believe in using these tools to drive
+                business growth and create meaningful user experiences. As a
+                leader, I prioritize empathy, collaboration, and transparent
+                communication to build high-performing teams that deliver
+                results. Whether I'm reimagining a complex system or launching a
+                new product, my goal is always the same: to make a positive
+                impact in the tech world. When I'm not working, you'll often
+                find me diving into DIY IoT projects, experimenting with
+                Raspberry Pi and NodeMCU modules, or even indulging in a bit of
+                home renovation and gardening. I'm always exploring new ways to
+                blend my technical skills with my creative interests. I'm
+                excited to connect with you and explore how we can create
+                something remarkable together.
               </Text>
               <Box textAlign="center">
                 <Button
@@ -40,9 +44,8 @@ export default function Home({ setHeading, heading }) {
                   onClick={download}
                   colorScheme="blue"
                   size="md"
-                  w={100}
                   m={10}>
-                  Download
+                  Download Resume
                 </Button>
               </Box>
             </Stack>
