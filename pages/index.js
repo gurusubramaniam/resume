@@ -20,21 +20,21 @@ export default function Home({ setHeading, heading }) {
           <Box p="5">
             <Stack spacing={3}>
               <Text fontSize="xl">
-                With over 18 years in software engineering and development, I’ve
-                evolved from hands-on coding to leading global teams in building
-                high-performing, empowered teams that drive innovation and
-                large-scale digital solutions across fintech, healthcare, and
-                leadership coaching platforms.
+                With over 18 years of experience in software engineering and
+                development, I've transitioned from hands-on coding to leading
+                global teams, fostering high-performance, empowered groups that
+                drive innovation and deliver large-scale digital solutions
+                across fintech, healthcare, and leadership coaching platforms.
               </Text>
               <Text fontSize="xl">
                 I have deep expertise in fintech, having led engineering teams
                 at PayPal and Greenlight Financial Technology, where I built and
                 scaled secure, compliant, and high-performance financial systems
-                that impacted millions of users. In healthcare tech, I worked at
-                Hyphen, architecting distributed systems to support community
-                health program management. Currently, at Torch.io, I lead teams
-                in developing 1:1 and group coaching platforms that empower
-                leaders and organizations to grow.
+                that served millions of users worldwide. In healthcare tech, I
+                worked at Hyphen, architecting distributed systems to support
+                community health program management. Currently, at Torch.io, I
+                lead teams in developing 1:1 and group coaching platforms that
+                empower leaders and organizations to grow.
               </Text>
               <Text fontSize="xl">
                 What truly drives me is building strong, collaborative teams and
