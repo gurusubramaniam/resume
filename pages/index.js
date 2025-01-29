@@ -15,28 +15,44 @@ export default function Home({ setHeading, heading }) {
       <main>
         <Container maxW="container.md">
           <Box p="5" lineHeight={0.5}>
-            <Heading>Welcome to my site! I&apos;m Gurusubramaniam</Heading>
+            <Heading>Welcome to my site! I'm Gurusubramaniam</Heading>
           </Box>
           <Box p="5">
             <Stack spacing={3}>
               <Text fontSize="xl">
-                I&apos;ve spent over 15 years in the world of software engineering
-                and development. My journey has taken me from hands-on coding to
-                leading global teams in creating innovative, large-scale digital
-                solutions. I&apos;m passionate about cloud architecture and
-                user-focused design, and I believe in using these tools to drive
-                business growth and create meaningful user experiences. As a
-                leader, I prioritize empathy, collaboration, and transparent
-                communication to build high-performing teams that deliver
-                results. Whether I&apos;m reimagining a complex system or launching a
-                new product, my goal is always the same: to make a positive
-                impact in the tech world. When I&apos;m not working, you&apos;ll often
-                find me diving into DIY IoT projects, experimenting with
-                Raspberry Pi and NodeMCU modules, or even indulging in a bit of
-                home renovation and gardening. I&apos;m always exploring new ways to
-                blend my technical skills with my creative interests. I&apos;m
-                excited to connect with you and explore how we can create
-                something remarkable together.
+                With over 18 years in software engineering and development, I’ve
+                evolved from hands-on coding to leading global teams in building
+                high-performing, empowered teams that drive innovation and
+                large-scale digital solutions across fintech, healthcare, and
+                leadership coaching platforms.
+              </Text>
+              <Text fontSize="xl">
+                I have deep expertise in fintech, having led engineering teams
+                at PayPal and Greenlight Financial Technology, where I built and
+                scaled secure, compliant, and high-performance financial systems
+                that impacted millions of users. In healthcare tech, I worked at
+                Hyphen, architecting distributed systems to support community
+                health program management. Currently, at Torch.io, I lead teams
+                in developing 1:1 and group coaching platforms that empower
+                leaders and organizations to grow.
+              </Text>
+              <Text fontSize="xl">
+                What truly drives me is building strong, collaborative teams and
+                fostering a culture where engineers thrive. I believe that
+                people are the heart of technology, and my leadership philosophy
+                centers on mentorship, transparency, and creating opportunities
+                for growth. By aligning personal success with business success,
+                I help teams build great products and grow as professionals and
+                leaders.
+              </Text>
+              <Text fontSize="xl">
+                Beyond work, I love DIY IoT projects, experimenting with
+                Raspberry Pi and NodeMCU, and exploring home renovation and
+                gardening—always blending my technical skills with creative
+                pursuits.
+              </Text>
+              <Text fontSize="xl">
+                Let’s connect and build something remarkable together!
               </Text>
               <Box textAlign="center">
                 <Button
