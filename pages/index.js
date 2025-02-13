@@ -15,7 +15,7 @@ export default function Home({ setHeading, heading }) {
       <main>
         <Container maxW="container.md">
           <Box p="5" lineHeight={0.5}>
-            <Heading>Welcome to my site! I'm Gurusubramaniam</Heading>
+            <Heading>Hi! I'm Gurusubramaniam</Heading>
           </Box>
           <Box p="5">
             <Stack spacing={3}>
