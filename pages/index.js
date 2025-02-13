@@ -20,33 +20,33 @@ export default function Home({ setHeading, heading }) {
           <Box p="5">
             <Stack spacing={3}>
               <Text fontSize="xl">
-                With over <strong>18 years </strong>of experience in software
-                engineering and development, I've transitioned from hands-on
-                coding to leading global teams, fostering high-performance,
-                empowered groups that drive innovation and deliver large-scale
-                digital solutions across fintech, healthcare, and leadership
-                coaching platforms.
+                With over 18 years of experience in software engineering and
+                development, I've transitioned from hands-on coding to leading
+                global teams, defining technical strategy, ensuring the delivery
+                of high-quality, scalable full-stack software solutions, and
+                aligning engineering efforts with overall business objectives,
+                in close collaboration with product management and other
+                stakeholders across the organization.
               </Text>
               <Text fontSize="xl">
-                I have deep expertise in fintech, having led engineering teams
-                at PayPal and Greenlight Financial Technology, where I built and
-                scaled secure, compliant, and high-performance
-                <strong> financial systems</strong> that served millions of
-                users worldwide. In
-                <strong> healthcare tech</strong>, I worked at Hyphen,
-                architecting distributed systems to support community health
-                program management. Currently, at Torch.io, I lead teams in
-                developing <strong>1:1 and group coaching</strong> platforms
-                that empower leaders and organizations to grow.
+                As an Engineering Leader, primarily in Fintech, I have delivered
+                onboarding flows for payments, charity, checkout, p2p
+                transactions, payments processing, and shopping. Together these
+                solutions serve over 450M customers with a YoY savings of $25M.
               </Text>
               <Text fontSize="xl">
-                What truly drives me is building strong, collaborative teams and
-                fostering a culture where engineers thrive. I believe that
-                people are the <strong>heart of technology</strong>, and my
-                leadership philosophy centers on mentorship, transparency, and
-                creating opportunities for growth. By aligning personal success
-                with business success, I help teams build great products and
-                grow as professionals and leaders.
+                In healthcare tech, I worked at Hyphen, architecting distributed
+                systems to support community health program management. At
+                Torch.io, I lead teams in developing 1:1 and group coaching
+                platforms that empower leaders and organizations to grow.
+              </Text>
+              <Text fontSize="xl">
+                My key strengths include executing growth strategies, new
+                business development, portfolio optimization strategies,
+                relationship management and people management. Strong executive
+                presence and communication skills. Highly competent in
+                synthesizing complex information, developing relevant
+                strategies, and executing them.
               </Text>
               <Text fontSize="xl">
                 Beyond work, I love DIY IoT projects, experimenting with
