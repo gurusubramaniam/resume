@@ -1,8 +1,9 @@
-import { Icon } from "@chakra-ui/react";
+import { Icon } from '@chakra-ui/react';
 const TechIcons = (props) => {
-  const tech = props.item.language.toLowerCase();
+  console.log(props.item.language);
+  const tech = props.item.language ? props.item.language.toLowerCase() : '';
   switch (tech) {
-    case "javascript":
+    case 'javascript':
       return (
         <Icon viewBox="0 0 448 512" {...props}>
           <path
@@ -12,7 +13,7 @@ const TechIcons = (props) => {
         </Icon>
       );
 
-    case "html":
+    case 'html':
       return (
         <Icon viewBox="0 0 384 512" {...props}>
           <path
@@ -21,7 +22,7 @@ const TechIcons = (props) => {
           />
         </Icon>
       );
-    case "swift":
+    case 'swift':
       return (
         <Icon viewBox="0 0 448 512" {...props}>
           <path
