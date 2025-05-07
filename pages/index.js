@@ -36,9 +36,7 @@ export default function Home({ setHeading, heading }) {
               </Text>
               <Text fontSize="xl">
                 In healthcare tech, I worked at Hyphen, architecting distributed
-                systems to support community health program management. At
-                Torch.io, I lead teams in developing 1:1 and group coaching
-                platforms that empower leaders and organizations to grow.
+                systems to support community health program management.
               </Text>
               <Text fontSize="xl">
                 My key strengths include executing growth strategies, new
