@@ -1,38 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Guru's Portfolio - Engineering Leader
 
-## Getting Started
+A high-performance personal portfolio website built with **React** and **Vite**, featuring a modern **Glassmorphism** design system, interactive animations, and dynamic content fetching.
 
-First, run the development server:
+## 🚀 Key Features
+
+- **Modern Aesthetics**: Premium glassmorphism UI with smooth gradients (Teal → Green).
+- **Interactive Experience**: Implemented with `framer-motion` for fluid transitions and magnetic button effects.
+- **Dynamic Content**: 
+  - **Experience Page**: Interactive career timeline, skills visualization, and 9+ real testimonials.
+  - **Blog (Reading Collection)**: Automatically fetches metadata (Title, Description, Source) from provided URLs on the fly.
+- **Dark/Light Mode**: Fully supported with a seamless toggle.
+- **Responsive Design**: Optimized for desktop, tablet, and mobile viewing.
+
+## 🛠️ Tech Stack
+
+- **Framework**: [React](https://react.dev/) (v18)
+- **Tooling**: [Vite](https://vitejs.dev/) for ultra-fast builds.
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/) (Font Awesome, etc.)
+- **Navigation**: [React Router](https://reactrouter.com/)
+
+## 🏁 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (latest LTS recommended)
+- npm (installed with Node.js)
+
+### Installation
+
+1.  **Clone the repository**:
+    ```bash
+    git clone [repository-url]
+    cd resume
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+### Running Locally
+
+To start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be available at [http://localhost:5173](http://localhost:5173).
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 📝 Configuration
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Adding Articles to the Blog
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+To add new articles to your **Reading Collection**:
+1. Open `src/pages/Blog.jsx`.
+2. Find the `articleUrls` array.
+3. Simply paste the URL of the article you want to share. The system will automatically fetch the metadata when the page loads.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Updating Resume
 
-## Learn More
+The resume file is located in `/public/Gurusubramaniam.pdf`. Replace this file with your latest version to update the "Download Resume" link.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+Built with ❤️ by Guru.
