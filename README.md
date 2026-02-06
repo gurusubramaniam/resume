@@ -50,6 +50,18 @@ npm run dev
 
 The application will be available at [http://localhost:5173](http://localhost:5173).
 
+## ☁️ Deployment (Cloudflare Pages)
+
+To deploy successfully to Cloudflare Pages, use the following **Build Settings**:
+
+- **Framework Preset**: None (or Vite)
+- **Build command**: `npm run build`
+- **Build output directory**: `dist`
+- **Root directory**: `/`
+
+> [!IMPORTANT]
+> Ensure the **Build output directory** is set specifically to `dist`. Cloudflare may default it to `out` or `build`, which will cause the deployment to fail.
+
 ## 📝 Configuration
 
 ### Adding Articles to the Blog
