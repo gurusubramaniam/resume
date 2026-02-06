@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaReact, FaNode, FaAws, FaDocker, FaPython, FaJava, FaCode, FaDatabase } from 'react-icons/fa';
+import { FaReact, FaNode, FaAws, FaDocker, FaJava, FaCode, FaDatabase } from 'react-icons/fa';
 
 const Skills = () => {
     const skillCategories = [
@@ -17,7 +17,6 @@ const Skills = () => {
             skills: [
                 { name: "Node.js", icon: <FaNode />, level: 95 },
                 { name: "Java", icon: <FaJava />, level: 85 },
-                { name: "Python", icon: <FaPython />, level: 80 },
                 { name: "Kafka", icon: <FaDatabase />, level: 85 },
             ]
         },
