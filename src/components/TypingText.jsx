@@ -46,13 +46,17 @@ const TypingText = ({ text, className = "" }) => {
             variants={container}
             initial="hidden"
             animate="visible"
-            style={{ display: 'inline-block' }}
+            style={{
+                display: 'inline-flex',
+                flexWrap: 'wrap',
+                justifyContent: 'center'
+            }}
         >
             {words.map((word, index) => (
-                <span key={index} style={{ display: 'inline' }}>
+                <span key={index} style={{ display: 'inline-flex' }}>
                     <motion.span
                         variants={wordVariant}
-                        style={{ display: 'inline-block', whiteSpace: 'nowrap' }}
+                        style={{ display: 'inline-block' }}
                     >
                         {Array.from(word).map((char, charIndex) => (
                             <motion.span variants={child} key={charIndex} style={{ display: 'inline-block' }}>
@@ -61,7 +65,9 @@ const TypingText = ({ text, className = "" }) => {
                         ))}
                     </motion.span>
                     {/* Add space between words */}
-                    {index < words.length - 1 && " "}
+                    {index < words.length - 1 && (
+                        <span style={{ whiteSpace: 'pre' }}> </span>
+                    )}
                 </span>
             ))}
         </motion.span>

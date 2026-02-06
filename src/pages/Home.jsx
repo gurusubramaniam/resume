@@ -191,10 +191,16 @@ const Home = () => {
 
                 @media (max-width: 768px) {
                     .container { padding-top: 40px !important; }
-                    .hero-title { font-size: 2.5rem; }
+                    .hero-title { 
+                        font-size: 2.2rem; 
+                        padding: 0 10px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
                     .content-panel { padding: 30px; }
                     .two-col-grid { grid-template-columns: 1fr; gap: 40px; }
-                    .hero-subtitle { font-size: 1rem; }
+                    .hero-subtitle { font-size: 1rem; padding: 0 15px; }
                 }
             `}</style>
         </div>
