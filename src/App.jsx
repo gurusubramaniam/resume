@@ -5,6 +5,9 @@ import Repos from './pages/Repos';
 import Experience from './pages/Experience';
 import Blog from './pages/Blog';
 
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
+
 function App() {
     return (
         <Router>
@@ -16,6 +19,8 @@ function App() {
                     <Route path="/blog" element={<Blog />} />
                 </Routes>
             </Layout>
+            <Analytics />
+            <SpeedInsights />
         </Router>
     );
 }
